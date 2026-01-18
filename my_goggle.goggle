@@ -1,0 +1,42 @@
+! name: My Starter Goggle
+! description: A learning goggle demonstrating boost, downrank, and discard patterns
+! public: false
+! author: James Clark
+
+! ==============================================================================
+! BOOST SECTION - Sites ranked higher in results
+! ==============================================================================
+
+! Boost entire domains (scale 1-10, higher = stronger boost)
+$boost=3,site=stackoverflow.com
+$boost=2,site=github.com
+$boost=2,site=developer.mozilla.org
+
+! Boost specific paths on a domain
+/docs/$boost=2,site=python.org
+/blog/$boost,site=martinfowler.com
+
+! Boost pages containing keywords (max 2 wildcards per rule)
+*tutorial*$boost
+
+! ==============================================================================
+! DOWNRANK SECTION - Sites ranked lower in results
+! ==============================================================================
+
+! Downrank domains with lower quality content
+$downrank,site=w3schools.com
+$downrank,site=geeksforgeeks.org
+
+! Downrank specific content types
+/amp/$downrank
+
+! ==============================================================================
+! DISCARD SECTION - Sites removed entirely from results
+! ==============================================================================
+
+! Remove known content farms and SEO spam
+$discard,site=pinterest.com
+$discard,site=quora.com
+
+! Remove aggregator sites
+$discard,site=medium.com
