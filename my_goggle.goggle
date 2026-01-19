@@ -141,6 +141,7 @@ $downrank,site=latimes.com
 $downrank,site=redstate.com
 $downrank,site=townhall.com
 $downrank,site=rt.com
+$downrank,site=thegatewaypundit.com
 
 ! Government and political orgs
 $downrank,site=whitehouse.gov
@@ -151,10 +152,15 @@ $downrank,site=oracle.com
 $downrank,site=sap.com
 $downrank,site=techtarget.com
 $downrank,site=play.google.com
+$downrank,site=evernote.com
+$downrank,site=community.spiceworks.com
 
 ! Social media
 $downrank,site=facebook.com
 $downrank,site=twitter.com
+
+! Lifestyle
+$downrank,site=bhg.com
 
 ! Downrank AMP pages
 /amp/$downrank
