@@ -39,10 +39,49 @@ $boost=2,site=arxiv.org
 $boost=2,site=ncbi.nlm.nih.gov
 $boost=2,site=pubmed.ncbi.nlm.nih.gov
 
-! News and tech journalism
+! News - Wire services
+$boost=2,site=apnews.com
+$boost=2,site=reuters.com
+
+! News - International
 $boost=2,site=bbc.com
 $boost=2,site=theguardian.com
+$boost=2,site=aljazeera.com
+
+! News - US/National
+$boost=2,site=pbs.org
+$boost=2,site=democracynow.org
+$boost=2,site=talkingpointsmemo.com
+$boost=2,site=truthout.org
+
+! News - Tech
 $boost=2,site=theverge.com
+$boost=2,site=404media.co
+
+! News - Chicago local
+$boost=2,site=chicagotribune.com
+$boost=2,site=chicago.suntimes.com
+$boost=2,site=blockclubchicago.org
+$boost=2,site=abc7chicago.com
+$boost=2,site=nbcchicago.com
+$boost=2,site=news.wttw.com
+$boost=2,site=chicago.gov
+
+! Security and infosec
+$boost=2,site=krebsonsecurity.com
+$boost=2,site=risky.biz
+$boost=2,site=cloudflare.com
+$boost=2,site=infosec.exchange
+
+! Developer blogs
+$boost=2,site=hackingwithswift.com
+$boost=2,site=simonwillison.net
+$boost=2,site=simonw.substack.com
+
+! Tools and platforms
+$boost=2,site=notebooklm.google
+$boost=2,site=muckrack.com
+$boost=2,site=bsky.app
 
 ! Reviews and ratings
 $boost=2,site=alternativeto.net
