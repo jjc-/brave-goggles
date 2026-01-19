@@ -23,20 +23,63 @@ $boost=2,site=developer.mozilla.org
 ! DOWNRANK SECTION - Sites ranked lower in results
 ! ==============================================================================
 
-! Downrank domains with lower quality content
+! Tutorial/reference sites with lower quality
 $downrank,site=w3schools.com
 $downrank,site=geeksforgeeks.org
 
-! Downrank specific content types
+! News sites
+$downrank,site=foxnews.com
+$downrank,site=washingtonpost.com
+
+! Social media
+$downrank,site=facebook.com
+$downrank,site=twitter.com
+
+! Downrank AMP pages
 /amp/$downrank
 
 ! ==============================================================================
 ! DISCARD SECTION - Sites removed entirely from results
 ! ==============================================================================
 
-! Remove known content farms and SEO spam
-$discard,site=pinterest.com
-$discard,site=quora.com
+! Pinterest (all TLDs)
+$discard,site=pinterest.*
 
-! Remove aggregator sites
+! Content farms and aggregators
+$discard,site=quora.com
 $discard,site=medium.com
+$discard,site=wikihow.com
+$discard,site=msn.com
+
+! Tabloids and low-quality news
+$discard,site=breitbart.com
+$discard,site=dailymail.co.uk
+$discard,site=nypost.com
+
+! Code scrapers - GitHub clones
+$discard,site=githubplus.com
+$discard,site=giters.com
+$discard,site=coder.social
+$discard,site=issuehint.com
+$discard,site=geekrepos.com
+$discard,site=bleepcoder.com
+
+! Code scrapers - Stack Overflow clones
+$discard,site=appsloveworld.com
+$discard,site=9to5answer.com
+$discard,site=solveforum.com
+$discard,site=codegrepper.com
+$discard,site=programcreek.com
+$discard,site=newbedev.com
+
+! Other code/content scrapers
+$discard,site=kknews.cc
+$discard,site=otosection.com
+$discard,site=blog.csdn.net
+$discard,site=educba.com
+
+! Bloatware/driver sites
+$discard,site=drivereasy.com
+
+! Regional Amazon (keep amazon.com)
+$discard,site=amazon.co.uk
