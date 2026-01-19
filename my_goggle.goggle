@@ -115,6 +115,23 @@ $downrank,site=geeksforgeeks.org
 ! News sites
 $downrank,site=foxnews.com
 $downrank,site=washingtonpost.com
+$downrank,site=cbsnews.com
+$downrank,site=latimes.com
+
+! Partisan/propaganda news
+$downrank,site=redstate.com
+$downrank,site=townhall.com
+$downrank,site=rt.com
+
+! Government and political orgs
+$downrank,site=whitehouse.gov
+$downrank,site=obama.org
+
+! Enterprise tech
+$downrank,site=oracle.com
+$downrank,site=sap.com
+$downrank,site=techtarget.com
+$downrank,site=play.google.com
 
 ! Social media
 $downrank,site=facebook.com
