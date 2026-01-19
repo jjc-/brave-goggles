@@ -53,6 +53,14 @@ $boost=2,site=pbs.org
 $boost=2,site=democracynow.org
 $boost=2,site=talkingpointsmemo.com
 $boost=2,site=truthout.org
+$boost=2,site=propublica.org
+$boost=2,site=theintercept.com
+$boost=2,site=nymag.com
+/news/$boost=2,site=newyorker.com
+
+! News - Science/Environment
+$boost=2,site=quantamagazine.org
+$boost=2,site=grist.org
 
 ! News - Tech
 $boost=2,site=theverge.com
@@ -77,6 +85,17 @@ $boost=2,site=infosec.exchange
 $boost=2,site=hackingwithswift.com
 $boost=2,site=simonwillison.net
 $boost=2,site=simonw.substack.com
+$boost=2,site=martinfowler.com
+
+! Tech companies
+$boost=2,site=anthropic.com
+$boost=2,site=brave.com
+$boost=2,site=blog.fastmail.com
+
+! Newsletters
+$boost=2,site=pluralistic.net
+$boost=2,site=garbageday.email
+$boost=2,site=todayintabs.com
 
 ! Tools and platforms
 $boost=2,site=notebooklm.google
