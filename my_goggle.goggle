@@ -42,8 +42,8 @@ $downrank,site=twitter.com
 ! DISCARD SECTION - Sites removed entirely from results
 ! ==============================================================================
 
-! Pinterest (all TLDs)
-$discard,site=pinterest.*
+! Pinterest
+$discard,site=pinterest.com
 
 ! Content farms and aggregators
 $discard,site=quora.com
