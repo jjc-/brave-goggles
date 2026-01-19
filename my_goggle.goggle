@@ -7,17 +7,63 @@
 ! BOOST SECTION - Sites ranked higher in results
 ! ==============================================================================
 
-! Boost entire domains (scale 1-10, higher = stronger boost)
-$boost=3,site=stackoverflow.com
-$boost=2,site=github.com
+! Developer documentation
 $boost=2,site=developer.mozilla.org
+$boost=2,site=developer.apple.com
+$boost=2,site=support.apple.com
+$boost=2,site=docs.aws.amazon.com
+$boost=2,site=docs.microsoft.com
+$boost=2,site=docs.python.org
+$boost=2,site=docs.rs
 
-! Boost specific paths on a domain
-/docs/$boost=2,site=python.org
-/blog/$boost,site=martinfowler.com
+! Developer Q&A and communities
+$boost=2,site=stackoverflow.com
+$boost=2,site=askubuntu.com
+$boost=2,site=serverfault.com
+$boost=2,site=superuser.com
+$boost=2,site=unix.stackexchange.com
+$boost=2,site=news.ycombinator.com
 
-! Boost pages containing keywords (max 2 wildcards per rule)
-*tutorial*$boost
+! Code hosting
+$boost=2,site=github.com
+$boost=2,site=gitlab.com
+
+! Reference and encyclopedias
+$boost=2,site=wikipedia.org
+$boost=2,site=en.wikipedia.org
+$boost=2,site=en.wiktionary.org
+$boost=2,site=wiki.archlinux.org
+
+! Academic and research
+$boost=2,site=arxiv.org
+$boost=2,site=ncbi.nlm.nih.gov
+$boost=2,site=pubmed.ncbi.nlm.nih.gov
+
+! News and tech journalism
+$boost=2,site=bbc.com
+$boost=2,site=theguardian.com
+$boost=2,site=theverge.com
+
+! Reviews and ratings
+$boost=2,site=alternativeto.net
+$boost=2,site=goodreads.com
+$boost=2,site=imdb.com
+$boost=2,site=letterboxd.com
+$boost=2,site=rtings.com
+
+! Health
+$boost=2,site=mayoclinic.org
+
+! Finance
+$boost=2,site=investopedia.com
+
+! Food
+$boost=2,site=seriouseats.com
+
+! Archives and utilities
+$boost=2,site=archive.org
+$boost=2,site=genius.com
+$boost=2,site=reddit.com
 
 ! ==============================================================================
 ! DOWNRANK SECTION - Sites ranked lower in results
@@ -47,7 +93,6 @@ $discard,site=pinterest.com
 
 ! Content farms and aggregators
 $discard,site=quora.com
-$discard,site=medium.com
 $discard,site=wikihow.com
 $discard,site=msn.com
 
